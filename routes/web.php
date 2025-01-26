@@ -13,3 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::view('/', 'nexoria.index')->name('nexoria.index');
+Route::view('/contact', 'nexoria.contact')->name('nexoria.contact');

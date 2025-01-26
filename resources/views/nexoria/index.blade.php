@@ -155,7 +155,6 @@
                                     <div class="services-style-one-item out wow fadeInRight" data-wow-delay="0ms">
                                         <div class="icon">
                                             <img decoding="async" src="{{ asset('assets/wp-content/themes/gixus/assets/img/icon/4.png') }}" alt="Image Not Found">
-                                            <img decoding="async" src="{{ asset('assets/wp-content/themes/gixus/assets/img/icon/5.png') }}" alt="Image Not Found">
                                         </div>
                                         <div class="content">
                                             <h4><a href="advanced-business-intelligence/index.html">{{ __('messages.cashier_system') }}</a></h4>
@@ -175,14 +174,21 @@
 
                                     <div class="services-style-one-item  wow fadeInRight" data-wow-delay="200ms">
                                         <div class="icon">
-                                            <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/5.png')}}" alt="Image Not Found"><img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/6.png')}}" alt="Image Not Found">
+                                            <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/5.png')}}" alt="Image Not Found">
                                         </div>
                                         <div class="content">
-                                            <h4><a href="business-research-and-development/index.html">Business Research And Development</a></h4>
-                                            <p>Seeing rather her you not esteem men settle genius excuse. Deal say over you age devonshire Comparison new ham melancholy son themselves instrument out reasonably.</p>
+                                            <h4><a href="business-research-and-development/index.html">{{ __('messages.e_commerce') }}</a></h4>
+                                            <p>{{ __('messages.e_commerce_paragraph') }}.</p>
                                         </div>
-                                        <div class="button">
-                                            <a class="btn" href="business-research-and-development/index.html"><i class="fas fa-arrow-right"></i></a>
+                                        <div class="button" style="display: flex; gap: 10px;">
+                                            <!-- WhatsApp Button -->
+                                            <a class="btn" href="https://wa.me/+201012620529" style="background-color: #25D366; color: white;">
+                                                <i class="fab fa-whatsapp"  style="transform: rotate(0deg);"></i> WhatsApp
+                                            </a>
+                                            <!-- Call Us Button -->
+                                            <a class="btn" href="tel:+201012620529" style="background-color: #007BFF; color: white;">
+                                                <i class="fas fa-phone" style="transform: rotate(0deg);"></i> Call Us
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="services-style-one-item  wow fadeInRight" data-wow-delay="400ms">
@@ -190,11 +196,18 @@
                                             <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/7.png')}}" alt="Image Not Found">
                                         </div>
                                         <div class="content">
-                                            <h4><a href="digital-project-management-system/index.html">Digital Project Management System</a></h4>
-                                            <p>Seeing rather her you not esteem men settle genius excuse. Deal say over you age devonshire Comparison new ham melancholy son themselves instrument out reasonably.</p>
+                                            <h4><a href="digital-project-management-system/index.html">{{ __('messages.digital_markting') }}</a></h4>
+                                            <p>{{ __('messages.digital_markting_paragraph') }}.</p>
                                         </div>
-                                        <div class="button">
-                                            <a class="btn" href="digital-project-management-system/index.html"><i class="fas fa-arrow-right"></i></a>
+                                        <div class="button" style="display: flex; gap: 10px;">
+                                            <!-- WhatsApp Button -->
+                                            <a class="btn" href="https://wa.me/+201012620529" style="background-color: #25D366; color: white;">
+                                                <i class="fab fa-whatsapp"  style="transform: rotate(0deg);"></i> WhatsApp
+                                            </a>
+                                            <!-- Call Us Button -->
+                                            <a class="btn" href="tel:+201012620529" style="background-color: #007BFF; color: white;">
+                                                <i class="fas fa-phone" style="transform: rotate(0deg);"></i> Call Us
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
