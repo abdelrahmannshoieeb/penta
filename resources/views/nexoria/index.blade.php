@@ -22,7 +22,7 @@
                                             <h2 class="wow fadeInUp" data-wow-delay="500ms" data-wow-duration="400ms"> {{ __('messages.grow_business') }}</h2>
                                             <p class="wow fadeInUp" data-wow-delay="900ms" data-wow-duration="400ms"> {{ __('messages.business_paragraph') }}.</p>
                                             <div class="button mt-40 wow fadeInUp" data-wow-delay="1200ms" data-wow-duration="400ms">
-                                                <a class="btn btn-md circle btn-gradient animation" href="https://wa.me/+201012620">
+                                                <a class="btn btn-md circle btn-gradient animation" href="https://wa.me/+201012620529">
                                                     {{ __('messages.get_started') }} </a>
                                             </div>
                                         </div>
@@ -163,11 +163,11 @@
                                         </div>
                                         <div class="button" style="display: flex; gap: 10px;">
                                             <!-- WhatsApp Button -->
-                                            <a class="btn" href="https://wa.me/+201012620" style="background-color: #25D366; color: white;">
+                                            <a class="btn" href="https://wa.me/+201012620529" style="background-color: #25D366; color: white;">
                                                 <i class="fab fa-whatsapp"  style="transform: rotate(0deg);"></i> WhatsApp
                                             </a>
                                             <!-- Call Us Button -->
-                                            <a class="btn" href="tel:+201012620" style="background-color: #007BFF; color: white;">
+                                            <a class="btn" href="tel:+201012620529" style="background-color: #007BFF; color: white;">
                                                 <i class="fas fa-phone" style="transform: rotate(0deg);"></i> Call Us
                                             </a>
                                         </div>
