@@ -151,7 +151,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="{{ route('contact') }}">
+                                            <a href="{{ route('nexoria.contact') }}">
                                                 {{ __('messages.contact_us') }} </a>
 
                                         </li>
