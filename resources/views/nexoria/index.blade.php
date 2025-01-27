@@ -154,7 +154,7 @@
                                 <div class="services-style-one-items">
                                     <div class="services-style-one-item out wow fadeInRight" data-wow-delay="0ms">
                                         <div class="icon">
-                                            <img decoding="async" src="{{ asset('assets/wp-content/themes/gixus/assets/img/icon/4.png') }}" alt="Image Not Found">
+                                            <img decoding="async" src="{{ asset('assets/wp-content/themes/gixus/assets/img/icon/41.png') }}" alt="Image Not Found">
                                         </div>
                                         <div class="content">
                                             <h4><a href="advanced-business-intelligence/index.html">{{ __('messages.cashier_system') }}</a></h4>
@@ -174,7 +174,7 @@
 
                                     <div class="services-style-one-item  wow fadeInRight" data-wow-delay="200ms">
                                         <div class="icon">
-                                            <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/5.png')}}" alt="Image Not Found">
+                                            <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/51.png')}}" alt="Image Not Found">
                                         </div>
                                         <div class="content">
                                             <h4><a href="business-research-and-development/index.html">{{ __('messages.e_commerce') }}</a></h4>
@@ -193,7 +193,7 @@
                                     </div>
                                     <div class="services-style-one-item  wow fadeInRight" data-wow-delay="400ms">
                                         <div class="icon">
-                                            <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/7.png')}}" alt="Image Not Found">
+                                            <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/71.png')}}" alt="Image Not Found">
                                         </div>
                                         <div class="content">
                                             <h4><a href="digital-project-management-system/index.html">{{ __('messages.digital_markting') }}</a></h4>
