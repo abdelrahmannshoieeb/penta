@@ -19,7 +19,7 @@
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                         <i class="fa fa-bars"></i>
                                     </button>
-                                    <a class="navbar-brand" href="https://wpriverthemes.com/gixus">
+                                    <a class="navbar-brand" href="{{url('/')}}">
                                         <img src="{{asset('assets/wp-content/plogo.png')}}" class="logo" alt="Logo">
                                     </a>
                                 </div>
@@ -151,7 +151,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact/index.html">
+                                            <a href="{{ route('contact') }}">
                                                 {{ __('messages.contact_us') }} </a>
 
                                         </li>
