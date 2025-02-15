@@ -12123,131 +12123,15 @@ ul.link-list li a {
 	position: relative;
 }
 
-.gixus-preloader .animation-preloader::after {
-    position: absolute;
-    left: 50%;
-    top: 30px;
-    content: "";
-    height: 50px;
-    width: 50px;
-    background: url(../img/logo-icon.png);
-    transform: translateX(-50%);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
 
-.gixus-preloader .animation-preloader .spinner {
-	-webkit-animation: spinner 1s infinite linear;
-	animation: spinner 1s infinite linear;
-	border-radius: 50%;
-	border: 3px solid rgba(2, 109, 255, 0.2);
-	border-top-color: var(--color-primary);
-	height: 110px;
-	margin: 0 auto 30px auto;
-	width: 110px;
-}
 
 .gixus-preloader.secondary .animation-preloader .spinner {
 	border-top-color: var(--color-secondary);
 }
 
-.gixus-preloader .animation-preloader .txt-loading {
-	font: bold 4em 'Outfit', sans-serif;
-	text-align: center;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
 
-.gixus-preloader .animation-preloader .txt-loading .letters-loading {
-	color: rgba(0, 0, 0, 0.2);
-	position: relative;
-}
 
-.gixus-preloader .animation-preloader .txt-loading .letters-loading:before {
-	-webkit-animation: letters-loading 4s infinite;
-	animation: letters-loading 4s infinite;
-	color: #000000;
-	content: attr(data-text-preloader);
-	left: 0;
-	opacity: 0;
-	font-family: 'Outfit', sans-serif;
-	position: absolute;
-	top: -3px;
-	-webkit-transform: rotateY(-90deg);
-	transform: rotateY(-90deg);
-}
 
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(2):before {
-	-webkit-animation-delay: 0.2s;
-	animation-delay: 0.2s;
-}
-
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(3):before {
-	-webkit-animation-delay: 0.4s;
-	animation-delay: 0.4s;
-}
-
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(4):before {
-	-webkit-animation-delay: 0.6s;
-	animation-delay: 0.6s;
-}
-
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(5):before {
-	-webkit-animation-delay: 0.8s;
-	animation-delay: 0.8s;
-}
-
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(6):before {
-	-webkit-animation-delay: 1s;
-	animation-delay: 1s;
-}
-
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(7):before {
-	-webkit-animation-delay: 1.2s;
-	animation-delay: 1.2s;
-}
-
-.gixus-preloader
-.animation-preloader
-.txt-loading
-.letters-loading:nth-child(8):before {
-	-webkit-animation-delay: 1.4s;
-	animation-delay: 1.4s;
-}
-
-.gixus-preloader.dark .animation-preloader .spinner {
-	border-color: rgba(255, 255, 255, 0.2);
-	border-top-color: #fff;
-}
-
-.gixus-preloader.dark .animation-preloader .txt-loading .letters-loading {
-	color: rgba(255, 255, 255, 0.2);
-}
-
-.gixus-preloader.dark .animation-preloader .txt-loading .letters-loading:before {
-	color: #fff;
-}
 
 .gixus-preloader p {
 	font-size: 14px;
@@ -12304,19 +12188,7 @@ ul.link-list li a {
 	transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
 }
 
-@-webkit-keyframes spinner {
-	to {
-		-webkit-transform: rotateZ(360deg);
-		transform: rotateZ(360deg);
-	}
-}
 
-@keyframes spinner {
-	to {
-		-webkit-transform: rotateZ(360deg);
-		transform: rotateZ(360deg);
-	}
-}
 
 @-webkit-keyframes letters-loading {
 	0%,
@@ -12351,3 +12223,69 @@ ul.link-list li a {
 		transform: rotateY(0deg);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Keyframe animation for fade-in-out effect */
+@keyframes fade-in-out {
+    0%, 100% {
+      opacity: 0; /* Fully transparent */
+    }
+    50% {
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  /* Apply animation to each circle with unique delays */
+  .animated-circle {
+    animation: fade-in-out 3s ease-in-out infinite;
+  }
+  .animated-circle-main {
+    width: 200px;
+  }
+  
+  .cls-1 {
+    animation-delay: 0s; /* First circle starts immediately */
+  }
+  
+  .cls-2 {
+    animation-delay: 0.6s; /* Outer red circle starts after 0.4s */
+  }
+  
+  .cls-3 {
+    animation-delay: 01.2s; /* Third circle starts after 0.8s */
+  }
+  
+  .cls-4 {
+    animation-delay: 1.8s; /* Fourth circle starts after 1.2s */
+  }
+  
+  .cls-5:nth-of-type(1) {
+    animation-delay: 1.6s; /* Fifth circle starts after 1.6s */
+  }
+  
+  .cls-5:nth-of-type(2) {
+    animation-delay: 2.5s; /* Sixth circle starts after 2s */
+  }

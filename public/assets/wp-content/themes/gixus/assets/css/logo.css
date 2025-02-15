@@ -1,0 +1,46 @@
+/* Keyframe animation for fade-in-out effect */
+@keyframes fade-in-out {
+    0%, 100% {
+      opacity: 0; /* Fully transparent */
+    }
+    50% {
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  /* Apply animation to each circle with unique delays */
+  .animated-circle {
+    animation: fade-in-out 1s ease-in-out infinite;
+  }
+  .animated-circle-main {
+    width: 400px;
+  }
+  @media (max-width: 768px) {
+    .animated-circle-main {
+      width: 100px;
+    }
+  }
+  
+  .cls-1 {
+    animation-delay: 0s; /* First circle starts immediately */
+  }
+  
+  .cls-2 {
+    animation-delay: 0.4s; /* Outer red circle starts after 0.4s */
+  }
+  
+  .cls-3 {
+    animation-delay: .8s; /* Third circle starts after 0.8s */
+  }
+  
+  .cls-4 {
+    animation-delay: 1.2s; /* Fourth circle starts after 1.2s */
+  }
+  
+  .cls-5:nth-of-type(1) {
+    animation-delay: 1.2s; /* Fifth circle starts after 1.6s */
+  }
+  
+  .cls-5:nth-of-type(2) {
+    animation-delay: 2s; /* Sixth circle starts after 2s */
+  }
