@@ -744,8 +744,10 @@
             font-size: 20px;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     @yield('styles')
     @livewireStyles
+    <link rel="stylesheet" href="{{ asset('assets/wp-content/themes/gixus/assets/css/test.css') }}">
 </head>
 
 <body
@@ -829,39 +831,6 @@
                         <div class="row">
                             <div class="col-3 loader-section section-left">
                                 <div class="bg"></div>
-                                <!-- Start Preloader 
-    ============================================= -->
-                                <div id="preloader">
-                                    <div id="gixus-preloader" class="gixus-preloader">
-                                        <div class="animation-preloader">
-                                            <div class="spinner"></div>
-                                            <div class="txt-loading">
-                                                <span data-text-preloader="G" class="letters-loading">G</span><span
-                                                    data-text-preloader="I" class="letters-loading">I</span><span
-                                                    data-text-preloader="X" class="letters-loading">X</span><span
-                                                    data-text-preloader="U" class="letters-loading">U</span><span
-                                                    data-text-preloader="S" class="letters-loading">S</span>
-                                            </div>
-                                        </div>
-                                        <div class="loader">
-                                            <div class="row">
-                                                <div class="col-3 loader-section section-left">
-                                                    <div class="bg"></div>
-                                                </div>
-                                                <div class="col-3 loader-section section-left">
-                                                    <div class="bg"></div>
-                                                </div>
-                                                <div class="col-3 loader-section section-right">
-                                                    <div class="bg"></div>
-                                                </div>
-                                                <div class="col-3 loader-section section-right">
-                                                    <div class="bg"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Preloader -->
                             </div>
                             <div class="col-3 loader-section section-left">
                                 <div class="bg"></div>

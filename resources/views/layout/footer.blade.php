@@ -12,7 +12,6 @@
                                                         <div class="f-item address">
                                                             <ul class="contact-address">
                                                                 <li>
-                                                                    <p>Want to connect?</p>
                                                                     <h4>
                                                                         <a href="mailto:wordpressriver@gmail.com">wordpressriver@gmail.com</a>
                                                                     </h4>
@@ -20,41 +19,8 @@
                                                                 <li>
                                                                     <p>Call us anytime</p>
                                                                     <h4>
-                                                                        <a href="tel:+4733378901">+1102102007</a>
+                                                                        <a href="tel:+201102102007">+201102102007</a>
                                                                     </h4>
-                                                                </li>
-                                                                <li>
-                                                                    <p>Our Location</p>
-                                                                    <h4>
-                                                                        <a href="#">175 10h Street, Office 375 Berlin, Devolina 21562</a>
-                                                                    </h4>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-md-6 footer-item">
-                                                        <div class="f-item link">
-                                                            <h4 class="widget-title">Quick Links</h4>
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="about-us/index.html">
-                                                                        Company Profile </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="faq/index.html">
-                                                                        Help Center </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="project-v1/index.html">
-                                                                        Projects </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="pricing/index.html">
-                                                                        Plans &amp; Pricing </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="blog-standard/index.html">
-                                                                        News &amp; Blog </a>
                                                                 </li>
                                                             </ul>
                                                         </div>

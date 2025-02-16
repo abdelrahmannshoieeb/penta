@@ -7,7 +7,7 @@
   --theme-light: 40, 100%, 97%;
   --theme-dark: 0, 7%, 29%;
   color: hsl(var(--theme-dark));
-  background: hsl(var(--theme-light));
+
 }
 
 *,
@@ -57,7 +57,7 @@ a:focus:not(:focus-visible),
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
-  height: 50vw;
+  height: 70vw;
   outline: none !important;
   min-height: 20rem;
   max-height: 30rem;
@@ -253,6 +253,7 @@ a:focus:not(:focus-visible),
   grid-template-rows: [media-start] auto [media-end main-start] auto [main-end];
   max-width: 100%;
   position: relative;
+
 }
 
 .Card__media {
@@ -460,10 +461,17 @@ img {
 }
 
 .Main {
-  margin: 0 auto;
+  margin: 70px;
   max-width: calc(90rem + 10vw);
   padding: 1.5rem 5vw;
   width: 100%;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .Main {
+    margin: 0 auto;
+  }
 }
 
 .Main > *:first-child {

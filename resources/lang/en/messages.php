@@ -35,4 +35,17 @@ return [
 
 
 
+// services
+'choose_between_these_designs' => ' choose between these designs',
+
+    'software_services_page_title' => 'Or',
+    'software_services_page_title2' => 'Empower your business with our services.',
+    'private_programing_header' => 'software services',
+    'private_programing' => 'Custom programming services designed to meet your specific needs, ensuring tailored solutions that align perfectly with your requirements, preferences, and goals for a seamless and efficient development experience.',
+     'sf_products_header' => 'software products',
+     'sf_products' => ' SF Products offer high-quality, reliable, and innovative solutions tailored to meet your needs, ensuring excellent performance and customer satisfaction',
+
+
+
+
 ];
