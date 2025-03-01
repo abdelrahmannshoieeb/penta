@@ -237,7 +237,7 @@
             <!--/Card-->
             <article class="Card Card--overlay Card--wide" id="card-2">
                 <div class="Card__media">
-                    <img class="Card__image"  style="height: 100%;" alt="Card image description" width="720" height="480" loading="lazy" src="{{ asset('assets/imgs/temp2.png') }}">
+                    <img class="Card__image" style="height: 100%;" alt="Card image description" width="720" height="480" loading="lazy" src="{{ asset('assets/imgs/temp2.png') }}">
                 </div>
                 <div class="Card__main">
                     <h2 class="Card__heading"><a class="Card__link" href="#">Prefer 16/9 aspect ratio</a></h2>
@@ -247,7 +247,7 @@
             <!--/Card-->
             <article class="Card Card--overlay Card--portrait" id="card-3">
                 <div class="Card__media">
-                    <img class="Card__image"  style="height: 100%;" alt="Card image description" width="360" height="480" loading="lazy" src="{{ asset('assets/imgs/temp3.png') }}">
+                    <img class="Card__image" style="height: 100%;" alt="Card image description" width="360" height="480" loading="lazy" src="{{ asset('assets/imgs/temp3.png') }}">
                 </div>
                 <div class="Card__main">
                     <h2 class="Card__heading"><a class="Card__link" href="#">Prefer 3/4 aspect ratio</a></h2>
@@ -257,7 +257,7 @@
             <!--/Card-->
             <article class="Card Card--overlay Card--photo" id="card-4">
                 <div class="Card__media">
-                    <img class="Card__image"  style="height: 100%;" alt="Card image description" width="708" height="480" loading="lazy" src="{{ asset('assets/imgs/temp3.png') }}">
+                    <img class="Card__image" style="height: 100%;" alt="Card image description" width="708" height="480" loading="lazy" src="{{ asset('assets/imgs/temp3.png') }}">
                 </div>
                 <div class="Card__main">
                     <h2 class="Card__heading"><a class="Card__link" href="#">Prefer 4/3 aspect ratio</a></h2>
@@ -267,7 +267,7 @@
             <!--/Card-->
             <article class="Card Card--overlay Card--square" id="card-5">
                 <div class="Card__media">
-                    <img class="Card__image"  style="height: 100%;" alt="Card image description" width="480" height="480" loading="lazy" src="https://images.unsplash.com/photo-1622987437805-5c6f7c2609d7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxOTA3NA&ixlib=rb-1.2.1&q=85&height=480">
+                    <img class="Card__image" style="height: 100%;" alt="Card image description" width="480" height="480" loading="lazy" src="https://images.unsplash.com/photo-1622987437805-5c6f7c2609d7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxOTA3NA&ixlib=rb-1.2.1&q=85&height=480">
                 </div>
                 <div class="Card__main">
                     <h2 class="Card__heading"><a class="Card__link" href="#">Prefer 1/1 aspect ratio</a></h2>
@@ -328,10 +328,6 @@
                                         </div>
                                         <ul class="card-list">
                                             <li class="wow fadeInUp">
-                                                <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/icon/4.png')}}" alt="Image Not Found">
-                                                <h5>Award Winning Company</h5>
-                                            </li>
-                                            <li class="wow fadeInUp">
                                                 <h2>3.8 X </h2>
                                                 <h5>Economical Growth</h5>
                                             </li>
@@ -353,11 +349,11 @@
                 <div class="project-style-one-area default-padding bg-gray">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-5 pr-60 pr-md-15 pr-xs-15">
+                            <a class="col-lg-5 pr-60 pr-md-15 pr-xs-15"  href="{{route('nexoria.index')}}" style="cursor: pointer">
                                 <div class="project-style-one-info bg-cover text-light wow fadeInRight" style="background-image: url(wp-content/themes/gixus/assets/img/shape/1.jpg);">
-                                    <h3>Have a view of our amazing projects with our clients</h3>
-                                    <p>We’re a creative branding and communications company of creative thinkers, strategists, digital innovators, for your company</p>
-                                    <ul class="list-style-two mt-20">
+                                    <h3>{{__('marketing.have_view_on_our_projects')}}</h3>
+                                    <p>{{__('marketing.several_clients')}}</p>
+                                    <ul class="list-style-two mt-20 " style="display: none;" >
                                         <li>Satisfaction guarantee</li>
                                         <li>Ontime delivery</li>
                                     </ul>
@@ -365,15 +361,15 @@
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </a>
                             <div class="col-lg-7">
                                 <div class="project-style-one-items">
                                     <div class="accordion" id="projectAccordion">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="heading0">
                                                 <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                                                    <span>Strategy</span>
-                                                    <b>Digital business planning</b>
+                                                    <span>{{__('marketing.strategy')}}</span>
+                                                    <b>{{__('marketing.digital_business_planning')}}</b>
                                                 </button>
                                             </h2>
                                             <div id="collapse0" class="accordion-collapse collapse show" aria-labelledby="heading0" data-bs-parent="#projectAccordion">
@@ -390,14 +386,14 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="heading1">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                                    <span>Partnership</span>
-                                                    <b>Business program management</b>
+                                                    <span>{{__('marketing.design')}}</span>
+                                                    <b>{{__('marketing.design_p')}}</b>
                                                 </button>
                                             </h2>
                                             <div id="collapse1" class="accordion-collapse collapse " aria-labelledby="heading1" data-bs-parent="#projectAccordion">
                                                 <div class="accordion-body">
                                                     <div class="portfolio-style-one-thumb">
-                                                        <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/portfolio/6.jpg')}}" alt="Image Not Found">
+                                                        <img decoding="async" src="{{asset('assets/imgs/graphic.jpg')}}" alt="Image Not Found">
                                                         <a href="business-program-management/index.html">
                                                             <i class="fas fa-link"></i>
                                                         </a>
@@ -408,14 +404,14 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="heading2">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                                    <span>Branding</span>
-                                                    <b>Strategy development</b>
+                                                    <span>{{__('marketing.branding')}}</span>
+                                                    <b>{{__('marketing.branding_p')}}</b>
                                                 </button>
                                             </h2>
                                             <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2" data-bs-parent="#projectAccordion">
                                                 <div class="accordion-body">
                                                     <div class="portfolio-style-one-thumb">
-                                                        <img decoding="async" src="{{asset('assets/wp-content/themes/gixus/assets/img/portfolio/7.jpg')}}" alt="Image Not Found">
+                                                        <img decoding="async" src="{{asset('assets/imgs/branding.jpg')}}" alt="Image Not Found">
                                                         <a href="strategy-development/index.html">
                                                             <i class="fas fa-link"></i>
                                                         </a>
@@ -433,48 +429,78 @@
         </div>
     </div>
 
-   
-    <div class="elementor-element elementor-element-5dbb408 e-con-full e-flex e-con e-parent" data-id="5dbb408" data-element_type="container">
-        <div class="elementor-element elementor-element-6d9e93f elementor-widget elementor-widget-home1_counter" data-id="6d9e93f" data-element_type="widget" data-widget_type="home1_counter.default">
+
+
+
+    <div class="elementor-element elementor-element-e51c08e e-con-full e-flex e-con e-parent"
+        data-id="e51c08e" data-element_type="container">
+        <div class="elementor-element elementor-element-ed6c8dd elementor-widget elementor-widget-pricing_widget"
+            data-id="ed6c8dd" data-element_type="widget" data-widget_type="pricing_widget.default">
             <div class="elementor-widget-container">
-                <div class="fun-factor-area default-padding-bottom">
+                <div class="pricing-style-one-area default-padding bg-cover bg-gray"
+                    style="background-image: url(../wp-content/themes/gixus/assets/img/shape/3.jpg);">
                     <div class="container">
-                        <div class="fun-fact-style-one-items text-center">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6 funfact-style-one-item">
-                                    <div class="fun-fact">
-                                        <div class="counter">
-                                            <div class="timer" data-to="56" data-speed="2000">56</div>
-                                            <div class="operator">K</div>
-                                        </div>
-                                        <span class="medium">Clients around the world</span>
-                                    </div>
+                        <div class="row">
+                            <div class="col-xl-12 offset-xl-3 col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h4 class="sub-title">{{ __('pricing.packages_title1') }}</h4>
+                                    <p style="text-align: center;">{{ __('pricing.packages_paragraph') }}</p>
                                 </div>
-                                <div class="col-lg-3 col-md-6 funfact-style-one-item">
-                                    <div class="fun-fact">
-                                        <div class="counter">
-                                            <div class="timer" data-to="30" data-speed="2000">30</div>
-                                            <div class="operator">+</div>
-                                        </div>
-                                        <span class="medium">Award Winning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="pricing-style-one wow fadeInUp">
+                                    <div class="pricing-header">
+                                        <h4>{{ __('pricing.basic_plan') }}</h4>
+                                        <p>{{ __('pricing.the_basic_plan') }}</p>
                                     </div>
+                                    <ul>
+                                        <li><i class="fas fa-check m-2"></i> {{ __('pricing.ecommerce') }}</li>
+                                        <li><i class="fas fa-check m-2"></i> {{ __('pricing.markting_stratgy') }}</li>
+                                        <li><i class="fas fa-check m-2"></i> {{ __('pricing.writing_and_Visual_content') }}</li>
+                                    </ul>
+                                    <a class="btn btn-gradient btn-md animation"
+                                        href="https://wa.me/+201012620529">{{ __('pricing.purchase_now') }}</a>
                                 </div>
-                                <div class="col-lg-3 col-md-6 funfact-style-one-item">
-                                    <div class="fun-fact">
-                                        <div class="counter">
-                                            <div class="timer" data-to="97" data-speed="2000">97</div>
-                                            <div class="operator">%</div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div class="pricing-two-box wow fadeInUp" data-wow-delay="300ms">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="pricing-style-one">
+                                                <div class="badge">Best Deal</div>
+                                                <div class="pricing-header">
+                                                    <h4>{{ __('pricing.advanced_plan') }}</h4>
+                                                    <p>{{ __('pricing.the_advanced_plan') }}</p>
+                                                </div>
+                                                <ul>
+                                                    <li><i class="fas fa-check  m-2"></i> {{ __('pricing.cashier_system') }}</li>
+                                                    <li><i class="fas fa-check  m-2"></i> {{ __('pricing.photo_shots_and_video') }}</li>
+                                                    <li><i class="fas fa-check  m-2"></i> {{ __('pricing.writing_and_Visual_content') }}</li>
+                                                    <li><i class="fas fa-check  m-2"></i> {{ __('pricing.markting_stratgy') }}</li>
+                                                </ul>
+                                                <a class="btn btn-dark btn-md animation"
+                                                    href="https://wa.me/+201012620529">{{ __('pricing.purchase_now') }}</a>
+                                            </div>
                                         </div>
-                                        <span class="medium">Business Growth</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 funfact-style-one-item">
-                                    <div class="fun-fact">
-                                        <div class="counter">
-                                            <div class="timer" data-to="60" data-speed="2000">60</div>
-                                            <div class="operator">+</div>
+                                        <div class="col-lg-6">
+                                            <div class="pricing-style-one">
+                                                <div class="pricing-header">
+                                                    <h4>Advanced Plan</h4>
+                                                    <p>The most Profitable Plan</p>
+                                                </div>
+                                                <ul>
+                                                    <li><i class="fas fa-check m-2"></i> 100 Days Sitting</li>
+                                                    <li><i class="fas fa-check m-2"></i> Market Report Analysis</li>
+                                                </ul>
+                                                <a class="btn btn-dark btn-md animation"
+                                                    href="https://wa.me/+201012620529">{{ __('pricing.purchase_now') }}</a>
+                                            </div>
                                         </div>
-                                        <span class="medium">Team Members</span>
                                     </div>
                                 </div>
                             </div>
@@ -484,6 +510,4 @@
             </div>
         </div>
     </div>
- 
-</div>
 @endsection

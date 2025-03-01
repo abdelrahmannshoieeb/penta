@@ -745,9 +745,12 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    @yield('styles')
+    
+    
     @livewireStyles
     <link rel="stylesheet" href="{{ asset('assets/wp-content/themes/gixus/assets/css/test.css') }}">
+    @yield('css')
+    
 </head>
 
 <body
@@ -1062,10 +1065,10 @@
 
     @livewireScripts
     <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/frontend.min18be.js?ver=3.25.10') }}"></script>
+    @yield('scripts')
 </body>
 
 <!-- Mirrored from wpriverthemes.com/gixus/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Dec 2024 15:10:48 GMT -->
-
 </html>
 
 

@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'nexoria.index')->name('nexoria.index');
 Route::view('/swservices', 'nexoria.swservices')->name('nexoria.swservices');
 Route::view('/contact', 'nexoria.contact')->name('nexoria.contact');
+Route::view('/design', 'nexoria.design')->name('nexoria.design');
+
 Route::view('/test', 'test')->name('test');
 
 

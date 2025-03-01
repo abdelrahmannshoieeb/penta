@@ -6,6 +6,10 @@ return [
     'services' => 'Services',
     'projects' => 'Projects',
     'pages' => 'Pages',
+    'graphic_design' => 'Graphic Design',
+    'personal_and_business_portfolios' => 'personal and business portfolios',
+
+
     //
     'welcome' => 'Welcome to our website!',
     'about' => 'About Us',

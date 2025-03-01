@@ -15,8 +15,8 @@
                             <div class="container d-flex justify-content-between align-items-center">
 
                                 <!-- Start Header Navigation -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-">
+                                <div class="navbar-header" style="position: sticky;   z-index: 1000; ">
+                                    <button  type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-">
                                         <i class="fa fa-bars"></i>
                                     </button>
                                     <a class="navbar-brand" href="{{url('/')}}">
@@ -84,19 +84,19 @@
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a href="project-v1/index.html">
-                                                        Project style one </a>
+                                                        {{ __('messages.e_commerce') }} </a>
                                                 </li>
                                                 <li>
                                                     <a href="project-v2/index.html">
-                                                        Project style two </a>
+                                                    {{ __('messages.cashier_system') }} </a>
                                                 </li>
                                                 <li>
                                                     <a href="project-v3/index.html">
-                                                        Project style three </a>
+                                                        {{ __('messages.digital_markting') }} </a>
                                                 </li>
                                                 <li>
                                                     <a href="strategy-development/index.html">
-                                                        Strategy Development </a>
+                                                        {{ __('messages.graphic_design') }} </a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -104,22 +104,27 @@
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                 {{ __('messages.services') }} </a>
 
-                                            <ul class="dropdown-menu">
+                                            
+                                                <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="services-v1/index.html">
-                                                        Services Version One </a>
+                                                    <a href="project-v1/index.html">
+                                                        {{ __('messages.e_commerce') }} </a>
                                                 </li>
                                                 <li>
-                                                    <a href="services-v2/index.html">
-                                                        Services Version Two </a>
+                                                    <a href="project-v2/index.html">
+                                                    {{ __('messages.cashier_system') }} </a>
                                                 </li>
                                                 <li>
-                                                    <a href="services-v3/index.html">
-                                                        Services Version Three </a>
+                                                    <a href="project-v3/index.html">
+                                                        {{ __('messages.digital_markting') }} </a>
                                                 </li>
                                                 <li>
-                                                    <a href="advanced-business-intelligence/index.html">
-                                                        Advanced Business </a>
+                                                    <a href="strategy-development/index.html">
+                                                        {{ __('messages.graphic_design') }} </a>
+                                                </li>
+                                                <li>
+                                                    <a href="strategy-development/index.html">
+                                                        {{ __('messages.personal_and_business_portfolios') }} </a>
                                                 </li>
                                             </ul>
                                         </li>
