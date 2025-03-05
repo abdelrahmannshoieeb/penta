@@ -20,14 +20,14 @@
                                         <i class="fa fa-bars"></i>
                                     </button>
                                     <a class="navbar-brand" href="{{url('/')}}">
-                                        <img src="{{asset('assets/wp-content/logo.svg')}}" class="logo" alt="Logo">
+                                        <img src="{{asset('assets/wp-content/logo.png')}}" class="logo" alt="Logo">
                                     </a>
                                 </div>
                                 <!-- End Header Navigation -->
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-menu">
-                                    <img src="{{asset('assets/wp-content/logo.svg')}}" alt="Logo">
+                                    <img src="{{asset('assets/wp-content/logo.png')}}" alt="Logo">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                         <i class="fa fa-times"></i>
                                     </button>
